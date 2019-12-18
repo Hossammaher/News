@@ -38,4 +38,5 @@ public class NewsClient {
         return newsInterface.getNewsSearch(Keyword,"publishedAt",API_KEY);
 
     }
+
 }

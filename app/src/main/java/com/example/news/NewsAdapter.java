@@ -45,7 +45,7 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewViewHolder>
 //        viewHolder.author.setText(ArticleList.get(i).getAuthor());
 
         Glide.with(mContext).load(ArticleList.get(i).getUrlToImage())
-                .placeholder(R.drawable.icon_news)
+                .placeholder(R.drawable.ic_placeholder)
                 .into(viewHolder.News_img);
     }
 

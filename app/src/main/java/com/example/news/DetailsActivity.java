@@ -118,7 +118,7 @@ public class DetailsActivity extends AppCompatActivity {
 
             Glide.with(this)
                     .load(mImg)
-                    .placeholder(R.drawable.icon_news)
+                    .placeholder(R.drawable.ic_placeholder)
                     .into(new_img);
 
 

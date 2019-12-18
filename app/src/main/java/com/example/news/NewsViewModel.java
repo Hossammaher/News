@@ -3,7 +3,6 @@ package com.example.news;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-
 import com.example.news.data.NewsClient;
 import com.example.news.pojo.Article;
 import com.example.news.pojo.NewsResponse;
@@ -49,7 +48,6 @@ public class NewsViewModel extends ViewModel {
             }
         });
     }
-
 
 
 }

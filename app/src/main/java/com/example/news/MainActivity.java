@@ -1,7 +1,6 @@
 package com.example.news;
 
 
-import android.app.SearchManager;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.view.Menu;
@@ -11,8 +10,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
-
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
@@ -24,7 +21,6 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.example.news.pojo.Article;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import de.hdodenhof.circleimageview.CircleImageView;
@@ -43,12 +39,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ImageView noResultImage ;
     TextView noResultTitle ,noResultSubTitle ;
 
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTheme(R.style.AppTheme);
         setContentView(R.layout.activity_main);
 
         sport = findViewById(R.id.sport);
